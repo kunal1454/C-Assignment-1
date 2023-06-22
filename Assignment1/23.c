@@ -19,9 +19,16 @@ int main()
 
 	printf("Enter the radius the units of centi menters only:\n");
 	scanf("%lf",&r);
+	printf("Following are the densities of some metals:\n");
+	printf("Aluminum     2.712 grams/cm3 (grams per centimeter cube\n");
+	printf("Copper       8.940\n");
+	printf("Gold	     19.320\n");
+	printf("Iron	     7.850\n");
+	printf("Silver	     10.490\n");
+	
 	printf("Enter the density of metal of the sphere:\n");
 	scanf("%lf",&density);
-	r=r/100;
+
 	volume=(4.0/3.0) * PI * r * r * r;
 	weight = volume * density;
 
