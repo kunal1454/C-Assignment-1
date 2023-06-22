@@ -36,6 +36,5 @@ int main()
 		printf("Year of Birth:%d\n",p[i].yearOfBirth);
 	}
 	free(p);
-
 }
 
