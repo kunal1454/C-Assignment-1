@@ -47,4 +47,3 @@ int main()
 	printf("Min marks:%d\n",arr1[3]);
 	
 }
-
