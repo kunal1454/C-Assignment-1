@@ -20,6 +20,7 @@ struct Time getTotalSecondsElapsed(int totalSeconds)
 	time.min=(totalSeconds%3600)/60;
 	time.sec=(totalSeconds%3600)%60;
 	return time;
+
 }
 int main()
 {
